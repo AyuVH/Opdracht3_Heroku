@@ -1,0 +1,102 @@
+<%- include ("top"); -%>
+
+<body class="headerspace">
+
+    <header>
+        <h1 id="onderdeel">Galerij</h1>
+    </header>
+
+    <div class="inleiding">
+        <h3 class="gamesh3">Games</h3>
+        <p>
+            Games is het thema van de maanden maart, april en mei. Deze maanden toont Digital Era een sector die de afgelopen decennia sterk is gegroeid. Digital Era geeft iedere bezoeker de geschiedenis mee van het ontstaan van games. Ze laat iedere bezoeker ervaren wat het is om een professionele gamer te zijn en wat dat betekende veertig jaar geleden. Het proces om een game te creëren wordt doorlopen zowel als de meest klassieke en bekende games, toestellen, technieken, strategieën en tot slot de gehele hedendaagse industrie en gemeenschap er achter.
+        </p>
+        <h3 class="gamesh3">Games op zak: de handhelds</h3>
+        <p>
+            Van 20/04 t.e.m. 03/05 omvatten we opmerkelijke spelconsoles. Spelconsoles die makkelijk meeneembaar zijn.
+            <br>
+            U heeft de optie om te zoeken of de resultaten te filteren.
+        </p>
+        <hr>
+    </div>
+    
+
+    <div class="onderdeel2">
+        <div class="zoekicoon"></div>
+        <h1 class="ondti">Zoeken en filteren</h1>
+    </div>
+
+    <div id="filters" class="button-group">
+        <h2>Zoek:</h2>
+        <p><input type="text" class="quicksearch" placeholder="Search" /></p>
+
+        <h2>Filters:</h2>
+        <button class="button is-checked" data-filter="*">Toon alles</button>
+        <br><br>
+        <h3>Jaar van uitgave:</h3>
+        <button class="button" data-filter=".t8">'80'</button>
+        <button class="button" data-filter=".n9">'90'</button>
+        <button class="button" data-filter=".n0">'00'</button>
+        <button class="button" data-filter=".t10">'10'</button>
+        <br><br>
+        <h3>Fabrikant:</h3>
+        <button class="button" data-filter=".at">Atari</button>
+        <button class="button" data-filter=".ban">Bandai</button>
+        <button class="button" data-filter=".gp">Game Park</button>
+        <button class="button" data-filter=".nin">Nintendo</button>
+        <button class="button" data-filter=".no">Nokia</button>
+        <button class="button" data-filter=".se">Sega</button>
+        <button class="button" data-filter=".snk">SNK</button>
+        <button class="button" data-filter=".so">Sony</button>
+        <button class="button" data-filter=".tito">TimeTop</button>
+        <button class="button" data-filter=".andere">Andere fabrikanten</button>
+        <br><br>
+        <h3>Generatie:</h3>
+        <button class="button" data-filter=".g2">G2</button>
+        <button class="button" data-filter=".g4">G4</button>
+        <button class="button" data-filter=".g5">G5</button>
+        <button class="button" data-filter=".g6">G6</button>
+        <button class="button" data-filter=".g7">G7</button>
+        <button class="button" data-filter=".g8">G8</button>
+    </div>
+
+    <div class="grid">
+        <% for( let i = 0; i < 16; i++ )
+        { %>
+            <div class="<%= galerlijst[i].class %>" data-category="<%= galerlijst[i].dataCategory %>">
+                <h1><%= galerlijst[i].naam %></h1>
+                <img class="thumb" src="<%= galerlijst[i].afb %>" alt="een afbeelding"></img>
+                <p>Fabrikant: <%= galerlijst[i].fabrikant %></p>
+                <p>Eerste jaar van uitgave: <%= galerlijst[i].datum %></p>
+                <p>Generatie: <%= galerlijst[i].generatie %></p>
+            </div>
+        <% } %>
+
+            <div class="<%= galerlijst[16].class %>" data-category="<%= galerlijst[16].dataCategory %>">
+                <h1><a href="/wonderswan-detail" class="linkw akijker"><%= galerlijst[16].naam %></a></h1>
+                <img class="thumb" src="<%= galerlijst[16].afb %>" alt="een afbeelding"></img>
+                <p>Fabrikant: <%= galerlijst[16].fabrikant %></p>
+                <p>Eerste jaar van uitgave: <%= galerlijst[16].datum %></p>
+                <p>Generatie: <%= galerlijst[16].generatie %></p>
+            </div>
+
+        <% for( let i = 17; i < 50; i++ )
+        { %>
+            <div class="<%= galerlijst[i].class %>" data-category="<%= galerlijst[i].dataCategory %>">
+                <h1><%= galerlijst[i].naam %></h1>
+                <img class="thumb" src="<%= galerlijst[i].afb %>" alt="een afbeelding"></img>
+                <p>Fabrikant: <%= galerlijst[i].fabrikant %></p>
+                <p>Eerste jaar van uitgave: <%= galerlijst[i].datum %></p>
+                <p>Generatie: <%= galerlijst[i].generatie %></p>
+            </div>
+        <% } %>
+
+    </div>
+
+</body>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
+<script src="/js/script.js"></script>
+
+<%- include ("menu"); -%>

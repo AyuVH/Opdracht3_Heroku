@@ -1,0 +1,514 @@
+/* Alle iconen zijn afkomstig van iconmonstr
+https://iconmonstr.com/menu-1-svg/
+https://iconmonstr.com/magnifier-1-svg/
+https://iconmonstr.com/newspaper-3-svg/
+https://iconmonstr.com/television-19-svg/ 
+https://iconmonstr.com/email-9-svg/
+https://iconmonstr.com/time-1-svg/
+https://iconmonstr.com/picture-17-svg/
+https://iconmonstr.com/home-6-svg/
+https://iconmonstr.com/help-2-svg/
+https://iconmonstr.com/arrow-64-svg/
+Bannerafbeelding
+https://upload.wikimedia.org/wikipedia/commons/d/d9/Arduino_ftdi_chip-1.jpg
+*/
+
+/* iconen */
+
+.nwsicoon, .kijkericoon, .contacticoon, .tijdicoon, .vraagicoon, .backicoon, .zoekicoon
+{
+    width: 5rem;
+    height: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.nwsicoon
+{
+    background-image: url(/css/img/news-icon.svg);
+}
+
+.kijkericoon
+{
+    background-image: url(/css/img/kijker-icon.svg);
+}
+
+.contacticoon
+{
+    background-image: url(/css/img/contact-icon.svg);
+}
+
+.tijdicoon
+{
+    background-image: url(/css/img/tijd-icon.svg);
+}
+
+.vraagicoon
+{
+    background-image: url(/css/img/vraag-icon.svg);
+}
+
+.zoekicoon
+{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-image: url(/css/img/zoek-icon.svg);
+}
+
+.backicoon
+{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-image: url(/css/img/back-icon.svg);
+}
+
+
+
+
+:root
+{
+    font-size: 62.5%;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgb(29, 29, 29);
+}
+
+body
+{
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: rgb(228, 228, 228);
+}
+
+.headerspace
+{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#menu
+{
+    z-index:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    bottom:0px;
+    padding: 2rem;
+    width: 100vw;
+    background-color: rgb(39, 39, 39);
+}
+
+#home, #galerij, #contact, #zoek
+{
+    text-decoration: none;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#home
+{
+    background-image: url(/css/img/home-icon.svg);
+}
+#galerij
+{
+    background-image: url(/css/img/galerij-icon.svg);
+}
+#contact
+{
+    background-image: url(/css/img/contact-icon.svg);
+}
+#zoek
+{
+    background-image: url(/css/img/zoek-icon.svg);
+}
+
+.msmn
+{
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 40rem;
+    padding: 15rem 0rem;
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(145, 195, 197);
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+}
+
+.bannerafb
+{
+    margin-bottom: 7.5rem;
+    width: 100vw;
+    height: 40rem;
+    background-image: url(/css/img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #EE303C;
+}
+
+
+header
+{
+    position: absolute;
+    top: 0px;
+    padding: 2rem;
+    width: 100vw;
+    background-color: rgb(39, 39, 39);
+}
+
+#onderdeel
+{
+    font-size: 3.9rem;
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+    color: #3C8284;
+    text-decoration: none;
+    text-align: center;
+}
+
+.onderdeel
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #EE303C;
+    padding: 2rem 3.5rem;
+    width: 90vw;
+    background-color: #EE303C;
+}
+
+.onderdeel2
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 3.5rem;
+    width: 85vw;
+    background-color: rgb(39, 39, 39);
+}
+
+.ondti
+{
+    padding-top: 1rem;
+    padding-left: 2.75rem;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+}
+
+.contentcontainer
+{
+    margin: 0rem auto 9rem auto;
+    border: solid 1px #EE303C;
+    padding: 3.5rem;
+    width: 90vw;
+    background-color: white;
+}
+
+.titelart
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    border-bottom: solid 1px #EE303C;
+}
+
+h2
+{
+    font-size: 2rem;
+    color: #EE303C;
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+}
+
+p, form > label
+{
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    color: rgb(29, 29, 29);
+}
+
+form > input
+{
+    margin: 2rem 0rem;
+}
+
+.gamesh3
+{
+    margin-bottom: 1rem;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+
+em
+{
+    margin-bottom: 4rem;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+table
+{
+    margin: 4rem 0rem 7.5rem 0rem;
+    width: 100%;
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+
+th
+{
+    padding: 1.5rem;
+    font-size: 1.6rem;
+}
+
+td
+{
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+b
+{
+    font-size: 1.7rem;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 0.5rem rgba(39, 39, 39, 0.322);
+    cursor: pointer;
+}
+
+.linkw
+{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.inleiding
+{
+    margin: 5rem auto 10rem auto;
+    width: 85%;
+}
+
+.grid
+{
+    margin: 5rem auto;
+    padding: 1.5rem;
+    width: 85%;
+    background-color: rgb(39, 39, 39);
+}
+
+.grid h1, .akijker
+{
+    font-size: 3rem;
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+    color: #EE303C;
+    text-align: center;
+}
+
+.grid > div
+{
+    display: inline-block;
+    margin: 5rem auto;
+    border: solid 1px #EE303C;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 90%;
+}
+
+.grid > div:hover
+{
+    border: solid 1px white;
+    background-color: rgb(14, 14, 14);
+}
+
+.grid > div > p
+{
+    margin: 1rem 0rem;
+    color: white;
+}
+
+.thumb
+{
+    display: block;
+    margin: 2rem auto 4rem auto;
+    width: 30rem;
+    height: 30rem;
+    object-fit: contain;
+    background-color: white;
+}
+
+.button-group
+{
+    margin: 2rem auto;
+    width: 85%;
+}
+
+.button-group h2
+{
+    margin-bottom: 3rem;
+}
+
+.button-group h3
+{
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #3C8284;
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+}
+
+.button-group button, .quicksearch
+{
+    margin: 0.25rem 0.5rem 0.75rem 0rem;
+    padding: 0.5rem;    
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+}
+
+.button-group .is-checked
+{
+    background-color: #EE303C;
+}
+
+.quicksearch
+{
+    width: 100%;
+}
+
+#editor 
+{
+    border: solid 1px #EE303C;
+    height: 20rem;
+    background-color: white;
+}
+
+.ql-snow
+{
+    background-color: white;
+}
+
+#editor h1
+{
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    color: #3C8284;
+}
+
+#editor h2
+{
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+    font-size: 3.2rem;
+    color:#EE303C;
+}
+
+#editor h3
+{
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+    font-size: 2.8rem;
+    color: #F5634A;
+}
+
+#editor h4
+{
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: #FF9C5B;
+}
+
+#editor h5
+{
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+    color: #FBD189;
+}
+
+#editor p
+{
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: rgb(36, 36, 36);
+}
+
+#counter
+{
+    margin-bottom: 2.5rem;
+    border: solid 1px #EE303C;
+    padding: 5px 15px;
+    font-size: 1.3rem;
+    color: rgb(36, 36, 36);
+    text-align: right;
+    background-color: white;
+}
+
+.submit
+{
+    border: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: white;
+    background-color: #3C8284;
+}
+
+.melding
+{
+    color: #EE303C;
+}
+
+.mail
+{
+    text-decoration: none;
+    color: #3C8284;
+}
+
+.online
+{
+    display: block;
+    margin: 0rem auto 10rem auto;
+    width: 80%;
+    font-size: 1.5rem;
+    color: #EE303C;
+    text-align: center;
+    text-decoration: none;
+}
+
+.omschr
+{
+    padding: 5rem;
+}
+
+.omschr .gamesh3
+{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.omschr p
+{
+    margin-bottom: 5rem;
+}
+
+.thumb2
+{
+    display: block;
+    margin: 2rem auto;
+    width: 40rem;
+    height: 40rem;
+    object-fit: contain;
+    background-color: white;
+}

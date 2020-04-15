@@ -1,0 +1,115 @@
+<%- include ("top"); -%>
+
+<!-- Informatie:
+https://en.wikipedia.org/wiki/Handheld_game_console
+https://en.wikipedia.org/wiki/List_of_handheld_game_consoles -->
+
+
+<body>
+    <h1 class="msmn">Digital Era</h1>
+    <div class="bannerafb"></div>
+
+    <div class="onderdeel">
+        <div class="nwsicoon"></div>
+        <h1 class="ondti">Updates</h1>
+    </div>
+    
+    <div class="contentcontainer">
+        <div class="titelart">
+            <h2>Bezoek Digital Era vandaag!</h2>
+            <h2>23/03/2020</h2>
+        </div>
+        <p>
+            Digital Era’s deuren zijn offline gesloten, maar openen online voor iedereen!
+        </p>
+        <p>
+            Omdat u niet tot ons kan komen, komt Digital Era tot u! De app is tijdelijk lichtjes aangepast om verscheidene werken ten toon te stellen. Zo functioneert de site als een mini-museum en is de overzichtspagina omgetoverd naar een galerij waar verscheidene werken worden vertoond. Een geselecteerd aantal is beschikbaar en wordt om de twee weken gewisseld met een nieuwe set aan wonderbaarlijke instrumenten en tuigen. 
+        </p>
+        <p>
+            Mis deze kans niet en neem regelmatig een kijkje op de site! 
+    
+            Het huidige thema en de planning van het mini-museum zijn hier vermeld:
+    
+        </p>
+    
+        <h3 class="gamesh3">Games</h3>
+        <em>
+            “Games is het thema van de maanden maart, april en mei. Deze maanden toont Digital Era een sector die de afgelopen decennia sterk is gegroeid. Digital Era geeft iedere bezoeker de geschiedenis mee van het ontstaan van games. Ze laat iedere bezoeker ervaren wat het is om een professionele gamer te zijn en wat dat betekende veertig jaar geleden. Het proces om een game te creëren wordt doorlopen zowel als de meest klassieke en bekende games, toestellen, technieken, strategieën en tot slot de gehele hedendaagse industrie en gemeenschap er achter.”
+        </em>
+    
+        <table>
+            <tr>
+                <th>Data</th>
+                <th>Onderwerp</th>
+            </tr>
+            <tr>
+                <td>23/03 – 05/04</td>
+                <td>Het prille begin</td>
+            </tr>
+            <tr>
+                <td>06/04 – 19/04</td>
+                <td>Video game consoles in huis</td>
+            </tr>
+            <tr>
+                <td>20/04 – 03/05</td>
+                <td>Games op zak: de handhelds</td>
+            </tr>
+            <tr>
+                <td>04/05 – 17/05</td>
+                <td>De opkomst en evolutie van de industrie</td>
+            </tr>
+            <tr>
+                <td>18/05 – 31/05</td>
+                <td>Communicatie rond heel de wereld</td>
+            </tr>
+        </table>
+    
+        <div class="titelart">
+            <h2>Corona-virus </h2>
+            <h2>18/03/2020</h2>
+        </div>
+    
+        <p>
+            Digital Era sluit de deuren vanwege de omstandigheden en huidige maatregelen omvattende Covid-19. Het museum is met die redenen tot nader order gesloten zijn voor het publiek.
+        </p>
+    
+        <p>
+            Alle geplande activiteiten zoals lezingen en rondleidingen gaan niet door. Deze kunnen echter verplaatst worden tot een latere data. Meer informatie wordt op de site vrijgegeven.
+        </p>
+    
+        <p>
+            Geplande groepsbezoeken kunnen eenvoudig worden overgezet naar een andere data.
+        </p>
+    
+        <p>
+            De maatregelen lopen t.e.m. 18 mei 2020. Meer informatie over de verdere toestand van het museum zal volgen op de site en op Digital Era’s sociale media.
+        </p>
+    
+        <p>
+            We danken voor uw begrip en wensen ieders het beste in deze periode.
+        </p>
+    
+        <b>Meer...</b>
+    </div>
+    
+    <div class="onderdeel">
+        <div class="kijkericoon"></div>
+        <h1 class="ondti">In de kijker</h1>
+    </div>
+    
+    <div class="contentcontainer">
+        <a href="/wonderswan-detail" class="linkw akijker"><%= galerlijst[16].naam %></a>
+        <img class="thumb" src="<%= galerlijst[16].afb %>" alt="een afbeelding"></img>
+        <p>Fabrikant: <%= galerlijst[16].fabrikant %></p>
+        <p>Eerste jaar van uitgave: <%= galerlijst[16].datum %></p>
+        <p>Generatie: <%= galerlijst[16].generatie %></p>    
+    </div>
+
+
+    <a href="" class="online">Online link</a>
+
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="/js/scriptQuill.js"></script>
+</body>
+
+<%- include ("menu"); -%>

@@ -1,0 +1,402 @@
+{"galerij": [
+    {
+    "naam": "Game & Watch",
+    "class": "element-item t8 g2 nin",
+    "fabrikant": "Nintendo",
+    "datum": "1980",
+    "generatie": "Tweede",
+    "afb": "/afb/afb (1).jpg"
+    },
+    {
+    "naam": "Game Boy",
+    "class": "element-item t8 g4 nin",
+    "fabrikant": "Nintendo",
+    "datum": "1989",
+    "generatie": "Vierde",
+    "afb": "/afb/afb (3).jpg"
+    },
+    {
+    "naam": "Atari Lynx I",
+    "class": "element-item t8 g4 at",
+    "fabrikant": "Atari",
+    "datum": "1989",
+    "generatie": "Vierde",
+    "afb": "/afb/afb (4).jpg"
+    },
+    {
+    "naam": "Gamate",
+    "class": "element-item n9 g4 andere",
+    "fabrikant": "Bit Corporations",
+    "datum": "1990",
+    "generatie": "Vierde",
+    "afb": "/afb/afb (7).jpg"
+    },
+    {
+    "naam": "Game Gear",
+    "class": "element-item n9 g4 se",
+    "fabrikant": "Sega",
+    "datum": "1990",
+    "generatie": "Vierde",
+    "afb": "/afb/afb (8).jpg"
+    },
+    {
+    "naam": "TurboExpress",
+    "class": "element-item n9 g4 andere",
+    "fabrikant": "NEC Home Electronics",
+    "datum": "1990",
+    "generatie": "Vierde",
+    "afb": "/afb/afb (6).jpg"
+    },
+    {
+    "naam": "Atari Lynx II",
+    "class": "element-item n9 g4 at",
+    "fabrikant": "Atari",
+    "datum": "1991",
+    "generatie": "Vierde",
+    "afb": "/afb/afb (5).jpg"
+    },
+    {
+    "naam": "Supervision",
+    "class": "element-item n9 g4 andere",
+    "fabrikant": "Watara",
+    "datum": "1992",
+    "generatie": "Vierde",
+    "afb": "/afb/afb (9).jpg"
+    },
+    {
+    "naam": "Mega Duck",
+    "class": "element-item n9 g4 andere",
+    "fabrikant": "Welback Holdings",
+    "datum": "1993",
+    "generatie": "Vierde",
+    "afb": "/afb/afbd.jpg"
+    },
+    {
+    "naam": "Nomad",
+    "class": "element-item n9 g5 se",
+    "fabrikant": "Sega",
+    "datum": "1995",
+    "generatie": "Vijfde",
+    "afb": "/afb/afb (10).jpg"
+    },
+    {
+    "naam": "Game Boy Pocket",
+    "class": "element-item n9 g4 nin",
+    "fabrikant": "Nintendo",
+    "datum": "1996",
+    "generatie": "Vierde",
+    "afb": "/afb/afb (11).jpg"
+    },
+    {
+    "naam": "Game.com",
+    "class": "element-item n9 g5 andere",
+    "fabrikant": "Tiger Electronics",
+    "datum": "1997",
+    "generatie": "Vijfde",
+    "afb": "/afb/afb (12).jpg"
+    },
+    {
+    "naam": "Game Boy Light",
+    "class": "element-item n9 g4 nin",
+    "fabrikant": "Nintendo",
+    "datum": "1998",
+    "generatie": "Vierde",
+    "afb": "/afb/afb.jpg"
+    },
+    {
+    "naam": "Neo Geo Pocket",
+    "class": "element-item n9 g5 snk",
+    "fabrikant": "SNK",
+    "datum": "1998",
+    "generatie": "Vijfde",
+    "afb": "/afb/afbng.jpg"
+    },
+    {
+    "naam": "Game Boy Color",
+    "class": "element-item n9 g5 nin",
+    "fabrikant": "Nintendo",
+    "datum": "1998",
+    "generatie": "Vijfde",
+    "afb": "/afb/afbcl.jpg"
+    },
+    {
+    "naam": "PocketStation",
+    "class": "element-item n9 g5 so",
+    "fabrikant": "Sony",
+    "datum": "1999",
+    "generatie": "Vijfde",
+    "afb": "/afb/afbpcks.jpg"
+    },
+    {
+    "naam": "Wonderswan",
+    "class": "element-item n9 g5 ban",
+    "fabrikant": "Bandai",
+    "datum": "1999",
+    "generatie": "Vijfde",
+    "afb": "/afb/afbws.jpg"
+    },
+    {
+    "naam": "Neo Geo Pocket Color",
+    "class": "element-item n9 g5 snk",
+    "fabrikant": "SNK",
+    "datum": "1999",
+    "generatie": "Vijfde",
+    "afb": "/afb/afb (14).jpg"
+    },
+    {
+    "naam": "Wonderswan Color",
+    "class": "element-item n0 g5 ban",
+    "fabrikant": "Bandai",
+    "datum": "2000",
+    "generatie": "Vijfde",
+    "afb": "/afb/afb (15).jpg"
+    },
+    {
+    "naam": "Cybiko",
+    "class": "element-item n0 g6 andere",
+    "fabrikant": "Cybiko Inc.",
+    "datum": "2000",
+    "generatie": "Zesde",
+    "afb": "/afb/afb (20).jpg"
+    },
+    {
+    "naam": "Game Boy Advance",
+    "class": "element-item n0 g6 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2001",
+    "generatie": "Zesde",
+    "afb": "/afb/afb (16).jpg"
+    },
+    {
+    "naam": "Game Park 32",
+    "class": "element-item n0 g6 gp",
+    "fabrikant": "Game Park",
+    "datum": "2001",
+    "generatie": "Zesde",
+    "afb": "/afb/afb (17).jpg"
+    },
+    {
+    "naam": "SwanCrystal",
+    "class": "element-item n0 g6 ban",
+    "fabrikant": "Bandai",
+    "datum": "2002",
+    "generatie": "Zesde",
+    "afb": "/afb/afbwsc.jpg"
+    },
+    {
+    "naam": "Game King",
+    "class": "element-item n0 tito",
+    "fabrikant": "TimeTop",
+    "datum": "2003",
+    "generatie": "/",
+    "afb": "/afb/afbgk.jpg"
+    },
+    {
+    "naam": "Game Boy Advance SP",
+    "class": "element-item n0 g6 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2003",
+    "generatie": "Zesde",
+    "afb": "/afb/afbsp.jpg"
+    },
+    {
+    "naam": "N-Gage",
+    "class": "element-item n0 g6 no",
+    "fabrikant": "Nokia",
+    "datum": "2003",
+    "generatie": "Zesde",
+    "afb": "/afb/afb (19).jpg"
+    },
+    {
+    "naam": "Game King II",
+    "class": "element-item n0 tito",
+    "fabrikant": "TimeTop",
+    "datum": "2004",
+    "generatie": "/",
+    "afb": "/afb/afb (2).jpg"
+    },
+    {
+    "naam": "N-Gage QD",
+    "class": "element-item n0 g6 no",
+    "fabrikant": "Nokia",
+    "datum": "2004",
+    "generatie": "Zesde",
+    "afb": "/afb/afb (18).jpg"
+    },
+    {
+    "naam": "Nintendo DS",
+    "class": "element-item n0 g7 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2004",
+    "generatie": "Zevende",
+    "afb": "/afb/afb (21).jpg"
+    },
+    {
+    "naam": "PlayStation Portable - PSP",
+    "class": "element-item n0 g7 so",
+    "fabrikant": "Sony",
+    "datum": "2004",
+    "generatie": "Zevende",
+    "afb": "/afb/afb (22).jpg"
+    },
+    {
+    "naam": "Gizmono",
+    "class": "element-item n0 g7 andere",
+    "fabrikant": "Tiger Telematics",
+    "datum": "2005",
+    "generatie": "Zevende",
+    "afb": "/afb/afb (23).jpg"
+    },
+    {
+    "naam": "GP2X",
+    "class": "element-item n0 g7 gp",
+    "fabrikant": "GamePark Holdings",
+    "datum": "2005",
+    "generatie": "Zevende",
+    "afb": "/afb/afb (24).jpg"
+    },
+    {
+    "naam": "Nintendo DS Lite",
+    "class": "element-item n0 g7 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2006",
+    "generatie": "Zevende",
+    "afb": "/afb/afbdsl.png"
+    },
+    {
+    "naam": "Nintendo DSi",
+    "class": "element-item n0 g7 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2008",
+    "generatie": "Zevende",
+    "afb": "/afb/afbdsi.png"
+    },
+    {
+    "naam": "Dingoo A320",
+    "class": "element-item n0 g7 andere",
+    "fabrikant": "Dingoo Digitsl Technology Company",
+    "datum": "2009",
+    "generatie": "Zevende",
+    "afb": "/afb/afb (25).jpg"
+    },
+    {
+    "naam": "GP2X Wiz",
+    "class": "element-item n0 g7 gp",
+    "fabrikant": "Game Park Holdings",
+    "datum": "2009",
+    "generatie": "Zevende",
+    "afb": "/afb/afbgx.jpg"
+    },
+    {
+    "naam": "PSP Go",
+    "class": "element-item n0 g7 so",
+    "fabrikant": "Sony",
+    "datum": "2009",
+    "generatie": "Zevende",
+    "afb": "/afb/afb (26).jpg"
+    },
+    {
+    "naam": "Nintendo DSi XL",
+    "class": "element-item n0 g7 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2009",
+    "generatie": "Zevende",
+    "afb": "/afb/afbdsixl.png"
+    },
+    {
+    "naam": "Pandora",
+    "class": "element-item t10 g7 andere",
+    "fabrikant": "OpenPandora",
+    "datum": "2010",
+    "generatie": "Zevende",
+    "afb": "/afb/afbp.jpg"
+    },
+    {
+    "naam": "Nintendo 3DS",
+    "class": "element-item t10 g8 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2011",
+    "generatie": "Achtste",
+    "afb": "/afb/afb (27).jpg"
+    },
+    {
+    "naam": "Xperia Play",
+    "class": "element-item t10 so",
+    "fabrikant": "Sony Ericsson",
+    "datum": "2011",
+    "generatie": "/",
+    "afb": "/afb/afb (28).jpg"
+    },
+    {
+    "naam": "Playstation Vita",
+    "class": "element-item t10 g8 so",
+    "fabrikant": "Sony",
+    "datum": "2011",
+    "generatie": "Achtste",
+    "afb": "/afb/afb (29).jpg"
+    },
+    {
+    "naam": "Nintendo 3DS XL",
+    "class": "element-item t10 g8 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2012",
+    "generatie": "Achtste",
+    "afb": "/afb/afb3dsxl.jpg"
+    },
+    {
+    "naam": "Nvidia Shield Portable",
+    "class": "element-item t10 g8 andere",
+    "fabrikant": "Nvidia",
+    "datum": "2013",
+    "generatie": "Achtste",
+    "afb": "/afb/afb (30).jpg"
+    },
+    {
+    "naam": "Nintendo 2DS",
+    "class": "element-item t10 g8 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2013",
+    "generatie": "Achtste",
+    "afb": "/afb/afb2ds.jpg"
+    },
+    {
+    "naam": "New Nintendo 3DS",
+    "class": "element-item t10 g8 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2014",
+    "generatie": "Achtste",
+    "afb": "/afb/afbn3ds.png"
+    },
+    {
+    "naam": "New Nintendo 3DS XL",
+    "class": "element-item t10 g8 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2014",
+    "generatie": "Achtste",
+    "afb": "/afb/afbn3dsxl.jpg"
+    },
+    {
+    "naam": "New Nintendo 2DS XL",
+    "class": "element-item t10 g8 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2017",
+    "generatie": "Achtste",
+    "afb": "/afb/afbn2ds.png"
+    },
+    {
+    "naam": "Nintendo Switch",
+    "class": "element-item t10 g8 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2017",
+    "generatie": "Achtste",
+    "afb": "/afb/afb (31).jpg"
+    },
+    {
+    "naam": "Nintendo Switch Lite",
+    "class": "element-item t10 g8 nin",
+    "fabrikant": "Nintendo",
+    "datum": "2019",
+    "generatie": "Achtste",
+    "afb": "/afb/afb (32).png"
+    }
+]}
